@@ -1,7 +1,7 @@
 <div align="center">
 
-# Hi, I'm Hollows 👋
-
+#I'm Hollows 
+##I’m a young developer with far too many ideas, so I end up complicating things for projects that were actually supposed to be simple.
 ### Building **Nodify Software**
 
 FiveM developer focused on **tools**, **automation** and **security solutions**.
