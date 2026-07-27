@@ -2,7 +2,7 @@
 
 # Hi, I'm Hollows 
 
-## A young developer with too many ideas, often turning simple projects into ambitious ones.
+## Developer with too many ideas, often turning simple projects into ambitious ones.
 
 ### Founder and developer of **Nodify Software**
 
