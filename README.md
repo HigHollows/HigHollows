@@ -12,8 +12,33 @@ FiveM developer focused on **tools**, **automation** and **security solutions**.
 
 <br>
 
-[![Profile](https://img.shields.io/badge/Profile-HigHollows-0d1117?style=for-the-badge&logo=github)](https://github.com/HigHollows)
-[![Status](https://img.shields.io/badge/Nodify%20Software-Coming%20Soon-3b82f6?style=for-the-badge)](#nodify-software)
+<div align="center">
+
+<a href="https://github.com/HigHollows">
+  <img
+    src="https://img.shields.io/badge/GitHub-HigHollows-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub Profile"
+    height="32"
+  />
+</a>
+
+<a href="#nodify-software">
+  <img
+    src="https://img.shields.io/badge/Nodify%20Software-In%20Development-0A84FF?style=for-the-badge&logo=windowsterminal&logoColor=white"
+    alt="Nodify Software"
+    height="32"
+  />
+</a>
+
+<a href="https://discord.com/users/1342909627536375941">
+  <img
+    src="https://img.shields.io/badge/Discord-Send%20me%20a%20DM-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+    alt="Contact me on Discord"
+    height="32"
+  />
+</a>
+
+</div>
 
 </div>
 
