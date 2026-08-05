@@ -1,36 +1,17 @@
 <div align="center">
 
-# Hi, I'm Hollows 👋
+# Hollows
 
-### Full Stack Developer · Software Engineer · Builder
+### Full Stack Developer · Independent Builder · Bug Creator
 
-I build software focused on **security, learning, automation and developer experience**.
-
-I enjoy turning ideas into reliable and polished products — from backend architecture and APIs to user interfaces, automation and security-oriented systems.
-
-### Founder & Developer of **Nodify Software**
-
-<br>
+I build software, break things, fix them and pretend everything went according to plan.
 
 <a href="https://github.com/HigHollows">
-  <img
-    src="https://img.shields.io/badge/GitHub-HigHollows-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub Profile"
-  />
-</a>
-
-<a href="#nodify-software">
-  <img
-    src="https://img.shields.io/badge/Nodify%20Software-In%20Development-0A84FF?style=for-the-badge&logo=windowsterminal&logoColor=white"
-    alt="Nodify Software"
-  />
+  <img src="https://img.shields.io/badge/GitHub-HigHollows-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
 <a href="https://discord.com/users/1342909627536375941">
-  <img
-    src="https://img.shields.io/badge/Discord-Contact%20Me-5865F2?style=for-the-badge&logo=discord&logoColor=white"
-    alt="Discord"
-  />
+  <img src="https://img.shields.io/badge/Discord-Contact-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
 </a>
 
 </div>
@@ -39,18 +20,28 @@ I enjoy turning ideas into reliable and polished products — from backend archi
 
 ## About Me
 
-I'm a **Full Stack Developer** interested in building software that is useful, secure and well-engineered.
+I'm an independent developer who learns by building, experimenting and making mistakes.
 
-My interests sit at the intersection of **software development, cybersecurity, automation and education**.
+I'm not interested in following a traditional or academic path. I prefer finding solutions by myself and working at my own pace.
 
-- 💻 Full Stack Developer
-- 🏢 Founder of **Nodify Software**
-- 🔐 Building **Aegis**, a secure data vault
-- 📚 Building **Nodify Learn**, a learning-focused Discord bot
-- 🧠 Interested in software engineering & cybersecurity
-- ⚙️ Passionate about automation and developer tooling
-- 🛡️ Focused on security, reliability and privacy
-- 🚀 Always working on new ideas and ambitious projects
+I'm mostly solitary, but also ambiverted. Sometimes I'm quiet and focused, sometimes I'm social. It depends on the people, the day and my remaining social battery.
+
+```js
+const hollows = {
+  personality: ["independent", "ambiverted", "curious"],
+  interests: ["software", "cybersecurity", "automation"],
+  learningStyle: "build first, understand while debugging",
+  socialBattery: Math.random(),
+  humor: true,
+  likesBeingToldWhatToDo: false
+};
+```
+
+- I learn through projects, not textbooks
+- I like finding my own solutions
+- I work better without someone managing every decision
+- I enjoy backend development, automation and security
+- My code has no bugs, only undocumented features
 
 ---
 
@@ -59,49 +50,42 @@ My interests sit at the intersection of **software development, cybersecurity, a
 <table>
 <tr>
 
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 
-<img src="./assets/aegis-logo.png" alt="Aegis" width="180" />
+<img src="./assets/aegis-logo.png" alt="Aegis" width="160" />
 
 ### Aegis
 
 **Secure Data Vault**
 
-Aegis is a security-focused project designed to provide a secure environment for storing and managing sensitive data.
+A security-focused application for storing and managing sensitive information.
 
-The project focuses on:
+Built to explore authentication, encryption, data protection and secure application architecture.
 
-- 🔐 Data protection
-- 🛡️ Security & privacy
-- 🔑 Secure data management
-- ⚙️ Reliability
-- 🧩 Clean and maintainable architecture
+`Security` `Privacy` `Backend` `Data`
 
 </td>
 
-<td align="center" width="50%">
+<td align="center" width="50%" valign="top">
 
-<img src="./assets/nodify-learn-logo.png" alt="Nodify Learn" width="180" />
+<img src="./assets/nodify-learn-logo.png" alt="Nodify Learn" width="160" />
 
 ### Nodify Learn
 
 **Software & Cybersecurity Learning Bot**
 
-Nodify Learn is a Discord-based learning assistant designed to help developers and cybersecurity enthusiasts **learn, practice and improve their skills**.
+A Discord bot for learning and practising software development and cybersecurity.
 
-The goal is to create an environment focused on:
+Made for people who prefer experimenting instead of watching someone read a PowerPoint for two hours.
 
-- 💻 Software engineering
-- 🛡️ Cybersecurity
-- 📚 Learning resources
-- 🧠 Knowledge development
-- 🧪 Practice & challenges
-- 📈 Continuous improvement
+`Discord` `Education` `Software` `Cybersecurity`
 
 </td>
 
 </tr>
 </table>
+
+> Both projects are still in development. They work until they don't.
 
 ---
 
@@ -111,23 +95,23 @@ The goal is to create an environment focused on:
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=ts,js,java,lua,python)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=ts,js,java,lua,python)](https://skillicons.dev)
 
 </div>
 
-### Full Stack Development
+### Web & Backend
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=nodejs,express,react,nextjs,html,css)](https://skillicons.dev)
+[![Web and Backend](https://skillicons.dev/icons?i=nodejs,express,react,nextjs,html,css)](https://skillicons.dev)
 
 </div>
 
-### Databases & Infrastructure
+### Data & Infrastructure
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux)](https://skillicons.dev)
+[![Data and Infrastructure](https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux)](https://skillicons.dev)
 
 </div>
 
@@ -135,73 +119,55 @@ The goal is to create an environment focused on:
 
 <div align="center">
 
-[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,idea,postman)](https://skillicons.dev)
+[![Tools](https://skillicons.dev/icons?i=git,github,vscode,idea,postman)](https://skillicons.dev)
 
 </div>
 
 ---
 
-## Areas of Interest
+## Current Status
 
-<div align="center">
+```text
+[████████░░] Building projects
+[██████░░░░] Learning cybersecurity
+[██████████] Creating new ideas
+[██░░░░░░░░] Writing documentation
+[??????????] Social battery
+```
 
-| 💻 Software Engineering | 🔐 Cybersecurity | ⚙️ Automation |
-| :---: | :---: | :---: |
-| Full Stack Development | Security Architecture | Developer Tools |
-| APIs & Backend Systems | Data Protection | Automation |
-| Application Architecture | Privacy | Productivity |
-| Scalable Applications | Secure Systems | Discord Applications |
-
-</div>
-
----
-
-## Current Focus
-
-- 🔐 Developing **Aegis**
-- 📚 Building **Nodify Learn**
-- 🏢 Developing the **Nodify Software** ecosystem
-- 🛡️ Deepening my knowledge in **cybersecurity**
-- 💻 Improving my **software engineering** skills
-- ⚙️ Building reliable and automated systems
-- 🧠 Learning, experimenting and creating
+- Developing **Aegis**
+- Building **Nodify Learn**
+- Improving my cybersecurity knowledge
+- Working on backend systems and automation
+- Fixing bugs that definitely weren't there yesterday
 
 ---
 
 ## Nodify Software
 
-### Software built with purpose.
+**Nodify Software** is the name behind my independent projects.
 
-**Nodify Software** is my independent software studio focused on creating useful, reliable and polished digital products.
+No endless meetings, complicated titles or someone asking for daily progress reports.
 
-The vision is simple:
+Just ideas, code and software built my way.
 
-> **Build software that solves real problems and helps people do more.**
-
-Nodify explores different areas including:
-
-- 💻 Software development
-- 🔐 Security & privacy
-- 📚 Education & learning
-- 🤖 Automation
-- ⚙️ Developer tools
-- 🧩 Productivity systems
-- 🌐 Digital platforms
+```text
+Nodify Software
+│
+├── Aegis
+│   └── Secure data vault
+│
+├── Nodify Learn
+│   └── Software and cybersecurity learning bot
+│
+└── Future Projects
+    └── Currently taking too much space in my head
+```
 
 ---
 
-## What I'm Building
+<div align="center">
 
-```text
-                    NODIFY SOFTWARE
-                          │
-          ┌───────────────┴───────────────┐
-          │                               │
-       AEGIS                         NODIFY LEARN
-          │                               │
-   Secure Data Vault              Learning Platform
-          │                               │
-    🔐 Security                    💻 Software
-    🛡️ Privacy                     🛡️ Cybersecurity
-    🔑 Data                         🧠 Knowledge
-    ⚙️ Reliability                  🧪 Practice
+**Build. Break. Fix. Repeat.**
+
+</div>
