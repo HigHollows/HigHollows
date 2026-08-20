@@ -162,9 +162,9 @@ Built around the idea that **learning by doing beats watching someone read slide
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=HigHollows&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="Hollows GitHub Stats"/>
+<img height="170" src="https://cdn.jsdelivr.net/gh/HigHollows/HigHollows@main/assets/stats/github-stats.svg" alt="Hollows GitHub Stats"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HigHollows&layout=compact&hide_border=true&langs_count=8" alt="Hollows Top Languages"/>
+<img height="170" src="https://cdn.jsdelivr.net/gh/HigHollows/HigHollows@main/assets/stats/top-languages.svg" alt="Hollows Top Languages"/>
 
 </div>
 
@@ -172,7 +172,7 @@ Built around the idea that **learning by doing beats watching someone read slide
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=HigHollows&hide_border=true" alt="GitHub Streak"/>
+<img src="https://cdn.jsdelivr.net/gh/HigHollows/HigHollows@main/assets/stats/streak.svg" alt="GitHub Streak"/>
 
 </div>
 

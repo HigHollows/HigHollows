@@ -1,0 +1,82 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # 1x/jour, minute décalée pour éviter les pics de charge GitHub Actions
+  workflow_dispatch: {}     # permet de lancer le workflow manuellement depuis l'onglet Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  github-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub stats card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: HigHollows
+          filename: assets/stats/github-stats.svg
+          template: classic
+          base: header, activity, community, repositories
+          config_timezone: Europe/Paris
+          committer_message: "chore(stats): update github-stats.svg [skip ci]"
+
+  top-languages:
+    needs: github-stats
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate top languages card
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: HigHollows
+          filename: assets/stats/top-languages.svg
+          template: classic
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_sections: most-used
+          committer_message: "chore(stats): update top-languages.svg [skip ci]"
+
+  streak:
+    needs: top-languages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch streak card (retry, keep previous file on failure)
+        run: |
+          mkdir -p assets/stats
+          ok=0
+          for i in 1 2 3; do
+            if curl -fsSL -o assets/stats/streak.svg.new \
+              "https://streak-stats.demolab.com?user=HigHollows&hide_border=true&theme=dark"; then
+              mv assets/stats/streak.svg.new assets/stats/streak.svg
+              ok=1
+              break
+            fi
+            echo "Attempt $i failed, retrying in 5s..."
+            sleep 5
+          done
+          rm -f assets/stats/streak.svg.new
+          if [ "$ok" -eq 0 ]; then
+            echo "::warning::Streak fetch failed 3 times, keeping previously committed streak.svg"
+          fi
+
+      - name: Commit streak card if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats/streak.svg
+          git diff --staged --quiet || git commit -m "chore(stats): update streak.svg [skip ci]"
+          git push
