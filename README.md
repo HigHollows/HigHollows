@@ -1,18 +1,23 @@
 <div align="center">
 
-# Hollows
+# `Hollows`
 
-### Full Stack Developer · Independent Builder · Bug Creator
+### Full-Stack Developer · Independent Builder · Security Enthusiast
 
-I build software, break things, fix them and pretend everything went according to plan.
+**I build software, break things, fix them, and occasionally call it a feature.**
+
+<br>
 
 <a href="https://github.com/HigHollows">
-  <img src="https://img.shields.io/badge/GitHub-HigHollows-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-HigHollows-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<a href="https://discord.com/users/1342909627536375941">
+  <img src="https://img.shields.io/badge/Discord-Contact-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
 </a>
 
-<a href="https://discord.com/users/1342909627536375941">
-  <img src="https://img.shields.io/badge/Discord-Contact-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-</a>
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=HigHollows&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
@@ -20,28 +25,45 @@ I build software, break things, fix them and pretend everything went according t
 
 ## About Me
 
-I'm an independent developer who learns by building, experimenting and making mistakes.
+I'm an **independent full-stack developer** focused on building software, experimenting with new technologies and learning through real-world projects.
 
-I'm not interested in following a traditional or academic path. I prefer finding solutions by myself and working at my own pace.
+I prefer **building over following tutorials**, solving problems independently and understanding how things work by breaking them apart.
 
-I'm mostly solitary, but also ambiverted. Sometimes I'm quiet and focused, sometimes I'm social. It depends on the people, the day and my remaining social battery.
+My main interests are:
+
+* Full-stack & backend development
+* Cybersecurity & application security
+* Automation & tooling
+* Bots and developer utilities
+* Learning through experimentation
+* Building independent software products
 
 ```js
 const hollows = {
-  personality: ["independent", "ambiverted", "curious"],
-  interests: ["software", "cybersecurity", "automation"],
-  learningStyle: "build first, understand while debugging",
+  role: "Independent Developer",
+
+  personality: [
+    "independent",
+    "curious",
+    "ambiverted"
+  ],
+
+  interests: [
+    "software",
+    "cybersecurity",
+    "automation"
+  ],
+
+  philosophy: "Build first. Understand while debugging.",
+
   socialBattery: Math.random(),
-  humor: true,
-  likesBeingToldWhatToDo: false
+
+  bugs: "undocumented features"
 };
 ```
 
-- I learn through projects, not textbooks
-- I like finding my own solutions
-- I work better without someone managing every decision
-- I enjoy backend development, automation and security
-- My code has no bugs, only undocumented features
+> I don't learn by memorizing everything.
+> I learn by building something, breaking it, and figuring out why.
 
 ---
 
@@ -52,31 +74,41 @@ const hollows = {
 
 <td align="center" width="50%" valign="top">
 
-<img src="./assets/aegis-logo.png" alt="Aegis" width="160" />
+<img src="./assets/aegis-logo.png" alt="Aegis" width="140"/>
 
 ### Aegis
 
 **Secure Data Vault**
 
-A security-focused application for storing and managing sensitive information.
+A security-focused application designed for securely storing and managing sensitive information.
 
-Built to explore authentication, encryption, data protection and secure application architecture.
+Built to explore:
 
-`Security` `Privacy` `Backend` `Data`
+* Authentication
+* Encryption
+* Data protection
+* Secure architecture
+* Backend systems
+
+<br>
+
+`Security` `Privacy` `Backend` `Encryption`
 
 </td>
 
 <td align="center" width="50%" valign="top">
 
-<img src="./assets/nodify-learn-logo.png" alt="Nodify Learn" width="160" />
+<img src="./assets/nodify-learn-logo.png" alt="Nodify Learn" width="140"/>
 
 ### Nodify Learn
 
 **Software & Cybersecurity Learning Bot**
 
-A Discord bot for learning and practising software development and cybersecurity.
+A Discord bot designed to make learning software development and cybersecurity more interactive.
 
-Made for people who prefer experimenting instead of watching someone read a PowerPoint for two hours.
+Built around the idea that **learning by doing beats watching someone read slides for two hours.**
+
+<br>
 
 `Discord` `Education` `Software` `Cybersecurity`
 
@@ -85,7 +117,8 @@ Made for people who prefer experimenting instead of watching someone read a Powe
 </tr>
 </table>
 
-> Both projects are still in development. They work until they don't.
+> Both projects are actively evolving.
+> They work until they don't.
 
 ---
 
@@ -93,53 +126,77 @@ Made for people who prefer experimenting instead of watching someone read a Powe
 
 ### Languages
 
-<div align="center">
+<p align="center">
 
-[![Languages](https://skillicons.dev/icons?i=ts,js,java,lua,python)](https://skillicons.dev)
+<img src="https://skillicons.dev/icons?i=ts,js,python,java,lua" alt="Languages"/>
 
-</div>
+</p>
 
-### Web & Backend
+### Frontend & Backend
 
-<div align="center">
+<p align="center">
 
-[![Web and Backend](https://skillicons.dev/icons?i=nodejs,express,react,nextjs,html,css)](https://skillicons.dev)
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,html,css" alt="Frontend and Backend"/>
 
-</div>
+</p>
 
-### Data & Infrastructure
+### Databases & Infrastructure
 
-<div align="center">
+<p align="center">
 
-[![Data and Infrastructure](https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux)](https://skillicons.dev)
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,linux" alt="Databases and Infrastructure"/>
 
-</div>
+</p>
 
 ### Tools
 
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman" alt="Development Tools"/>
+
+</p>
+
+---
+
+## GitHub Stats
+
 <div align="center">
 
-[![Tools](https://skillicons.dev/icons?i=git,github,vscode,idea,postman)](https://skillicons.dev)
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=HigHollows&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="Hollows GitHub Stats"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HigHollows&layout=compact&hide_border=true&langs_count=8" alt="Hollows Top Languages"/>
+
+</div>
+
+<br>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=HigHollows&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
 ---
 
-## Current Status
+## Current Focus
 
 ```text
-[████████░░] Building projects
-[██████░░░░] Learning cybersecurity
-[██████████] Creating new ideas
+[████████░░] Building software
+[███████░░░] Learning cybersecurity
+[██████████] Exploring new ideas
+[████░░░░░░] Improving architecture
 [██░░░░░░░░] Writing documentation
 [??????????] Social battery
 ```
 
-- Developing **Aegis**
-- Building **Nodify Learn**
-- Improving my cybersecurity knowledge
-- Working on backend systems and automation
-- Fixing bugs that definitely weren't there yesterday
+### Right now
+
+* Developing **Aegis**
+* Building **Nodify Learn**
+* Improving my cybersecurity knowledge
+* Working on backend systems & automation
+* Experimenting with new technologies
+* Fixing bugs that definitely weren't there yesterday
 
 ---
 
@@ -147,9 +204,15 @@ Made for people who prefer experimenting instead of watching someone read a Powe
 
 **Nodify Software** is the name behind my independent projects.
 
-No endless meetings, complicated titles or someone asking for daily progress reports.
+The goal is simple:
 
-Just ideas, code and software built my way.
+> **Build useful software independently, experiment freely, and keep improving.**
+
+No unnecessary bureaucracy.
+
+No endless meetings.
+
+Just ideas, code and products.
 
 ```text
 Nodify Software
@@ -158,16 +221,57 @@ Nodify Software
 │   └── Secure data vault
 │
 ├── Nodify Learn
-│   └── Software and cybersecurity learning bot
+│   └── Software & cybersecurity learning platform
 │
 └── Future Projects
-    └── Currently taking too much space in my head
+    └── Currently living rent-free in my head
 ```
+
+---
+
+## Development Philosophy
+
+```text
+Build
+  ↓
+Break
+  ↓
+Debug
+  ↓
+Understand
+  ↓
+Improve
+  ↓
+Repeat
+```
+
+I believe the fastest way to understand technology is to **use it, break it and rebuild it better**.
+
+---
+
+## Fun Facts
+
+* Bugs are just undocumented features.
+* I understand things better when I build them myself.
+* Security is more interesting when you think like the person trying to break the system.
+* I enjoy automating things that shouldn't require manual work.
+* Social battery status: `undefined`
+* Most of my best ideas start with *"what if..."*
 
 ---
 
 <div align="center">
 
-**Build. Break. Fix. Repeat.**
+### Build. Break. Fix. Repeat.
+
+<br>
+
+<img src="https://img.shields.io/badge/Status-Building-2ea44f?style=for-the-badge" alt="Status"/>
+<img src="https://img.shields.io/badge/Mindset-Always_Learning-6f42c1?style=for-the-badge" alt="Mindset"/>
+<img src="https://img.shields.io/badge/Bugs-Features-f85149?style=for-the-badge" alt="Bugs"/>
+
+<br><br>
+
+**Thanks for stopping by.**
 
 </div>
